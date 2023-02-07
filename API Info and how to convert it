@@ -1,0 +1,41 @@
+Received From Buyer:
+
+https://display.ringba.com/enrich/2051009127504676634?
+
+callerid=  "PHONE NUMBER WITH THE +1 SEE EXAMPLE BELOW"
+&first_name=
+&last_name=
+&address=
+&city=
+&state=
+&zip=
+&dob=     
+&email=
+&ip=
+&trusted=    "TRUSTED CERT"
+&jornaya=   "JORNAYA"
+
+----------------------------------------------------------------------
+
+Convert to Usable Data Pass:
+
+https://display.ringba.com/enrich/2051009127504676634?
+
+callerid=+1--A--phone_number--B--
+&first_name=--A--first_name--B--
+&last_name=--A--last_name--B--
+&address=--A--address1--B--
+&city=--A--city--B--
+&state=--A--state--B--
+&zip=--A--postal_code--B--
+&dob=--A--date_of_birth--B--
+&email=--A--email--B--
+&ip=--A--ip--B--
+&trusted=--A--trusted--B--
+&jornaya=--A--jornaya--B--
+
+----------------------------------------------------------------------
+
+End Result:
+
+https://display.ringba.com/enrich/2051009127504676634?callerid=+1--A--phone_number--B--&first_name=--A--first_name--B--&last_name=--A--last_name--B--&address=--A--address1--B--&city=--A--city--B--&state=--A--state--B--&zip=--A--postal_code--B--&dob=--A--date_of_birth--B--&email=--A--email--B--&ip=--A--ip--B--&trusted=--A--trusted--B--&jornaya=--A--jornaya--B--
