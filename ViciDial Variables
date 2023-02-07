@@ -1,0 +1,57 @@
+You can have lead information be auto-populated in the URL options (webform, webform2, and script window) using
+"--A--field--B--" where field is one of the following fieldnames:
+
+vendor_lead_code
+source_id
+list_id
+gmt_offset_now
+called_since_last_reset
+phone_code
+phone_number
+title
+first_name
+middle_initial
+last_name
+address1
+address2
+address3
+city
+state
+province
+postal_code
+gender
+date_of_birth
+alt_phone
+email
+comments
+lead_id
+campaign
+
+--A--vendor_lead_code--B--
+--A--source_id--B--
+--A--list_id--B--
+--A--gmt_offset_now--B--
+--A--called_since_last_reset--B--
+--A--phone_code--B--
+--A--phone_number--B--
+--A--title--B--
+--A--first_name--B--
+--A--middle_initial--B--
+--A--last_name--B--
+--A--address1--B--
+--A--address2--B--
+--A--address3--B--
+--A--city--B--
+--A--state--B--
+--A--province--B--
+--A--postal_code--B--
+--A--gender--B--
+--A--date_of_birth--B--
+--A--alt_phone--B--
+--A--email--B--
+--A--comments--B--
+--A--lead_id--B--
+--A--campaign--B--
+
+For most of the functions above, you can also reference custom list fields using
+the standard --A-- and --B-- around the custom field ID
