@@ -61,6 +61,10 @@ Recommended Custom Fields
 
 jornaya
 trusted
+ip_address
+opt_in_date
 
 --A--jornaya--B--
 --A--trusted--B--
+--A--ip_address--B--
+--A--opt_in_date--B--
