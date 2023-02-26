@@ -1,0 +1,38 @@
+DATA PASS FROM BUYER:
+https://display.ringba.com/enrich/2049585436241692473?
+
+callerid= 
+&first_name=
+&last_name=
+&address=
+&city=
+&state=
+&zip=
+&dob=     
+&email=
+&ip_address=
+&trusted=    
+&jornaya=
+
+
+
+DATA PASS CONVERTED TO BE USED IN RINGBA:
+https://display.ringba.com/enrich/2049585436241692473?
+
+callerid=[tag:InboundNumber:Number-NoPlus]
+&first_name=[tag:User:first_name]
+&last_name=[tag:User:first_name]
+&address=[tag:User:address]
+&city=[tag:User:city]
+&state=[tag:User:state]
+&zip=[tag:User:zip]
+&dob=[tag:User:dob]
+&email=[tag:User:email]
+&ip_address=[tag:User:ip_address]
+&trusted=[tag:User:trusted]
+&jornaya=[tag:User:jornaya]
+
+
+
+To be used in Request Settings within Ringba Ring Tree Target:
+https://display.ringba.com/enrich/2049585436241692473?callerid=[tag:InboundNumber:Number-NoPlus]&first_name=[tag:User:first_name]&last_name=[tag:User:first_name]&address=[tag:User:address]&city=[tag:User:city]&state=[tag:User:state]&zip=[tag:User:zip]&dob=[tag:User:dob]&email=[tag:User:email]&ip_address=[tag:User:ip_address]&trusted=[tag:User:trusted]&jornaya=[tag:User:jornaya]
