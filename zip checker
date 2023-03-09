@@ -1,0 +1,51 @@
+  <script>
+    function fetchDataMVA() {
+      fetch('https://hook.us1.make.com/sgx9klr836rqt54vcpowja3dc8pteks1?downsell=MVA&zip=--A--postal_code--B--')
+        .then(response => response.json())
+        .then(data => {
+          const responseDiv = document.getElementById('responseMVA');
+          responseDiv.innerHTML = JSON.stringify(data);
+        })
+        .catch(error => console.error(error));
+    }
+    function fetchDataPI() {
+      fetch('https://hook.us1.make.com/sgx9klr836rqt54vcpowja3dc8pteks1?downsell=PI&zip=--A--postal_code--B--')
+        .then(response => response.json())
+        .then(data => {
+          const responseDiv = document.getElementById('responsePI');
+          responseDiv.innerHTML = JSON.stringify(data);
+        })
+        .catch(error => console.error(error));
+    }
+    function fetchDataWC() {
+      fetch('https://hook.us1.make.com/sgx9klr836rqt54vcpowja3dc8pteks1?downsell=WC&zip=--A--postal_code--B--')
+        .then(response => response.json())
+        .then(data => {
+          const responseDiv = document.getElementById('responseWC');
+          responseDiv.innerHTML = JSON.stringify(data);
+        })
+        .catch(error => console.error(error));
+    }
+  </script>
+
+<body>
+<BR>
+<BR>
+<table>
+  <tr>
+    <th>Campaign ZIP Check</th>
+    <th></th>
+    </tr>
+  <tr>
+    <td><button class="yellowbutton" onclick="fetchDataMVA()">MVA Check Zip</button></td>
+    <td><div id="responseMVA"></div></td>
+  </tr>
+  <tr>
+    <td><button class="yellowbutton" onclick="fetchDataPI()">PI Check Zip</button></td>
+    <td><div id="responsePI"></div></td>
+  </tr>
+   <tr>
+    <td><button class="yellowbutton" onclick="fetchDataWC()">WC Check Zip</button></td>
+    <td><div id="responseWC"></div></td>
+  </tr>
+</table>
